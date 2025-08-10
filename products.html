@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Clone - Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo"><a href="index.html" style="color:white; text-decoration:none;">Flipkart</a></div>
+        <input type="text" class="search-bar" placeholder="Search for products">
+        <button class="search-btn">Search</button>
+        <a href="cart.html" class="cart-link">🛒 Cart</a>
+    </header>
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2>All Products</h2>
+        <div class="product-grid">
+
+            <!-- Product 1 -->
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500" alt="Mobile">
+                <h3>Smartphone</h3>
+                <p class="price">₹12,999</p>
+                <button class="add-to-cart" onclick="addToCart('Smartphone', 12999, 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500')">Add to Cart</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500" alt="Laptop">
+                <h3>Laptop</h3>
+                <p class="price">₹55,000</p>
+                <button class="add-to-cart" onclick="addToCart('Laptop', 55000, 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500')">Add to Cart</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500" alt="Shoes">
+                <h3>Running Shoes</h3>
+                <p class="price">₹2,499</p>
+                <button class="add-to-cart" onclick="addToCart('Running Shoes', 2499, 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500')">Add to Cart</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=500" alt="Headphones">
+                <h3>Headphones</h3>
+                <p class="price">₹1,299</p>
+                <button class="add-to-cart" onclick="addToCart('Headphones', 1299, 'https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=500')">Add to Cart</button>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
